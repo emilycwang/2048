@@ -1,0 +1,151 @@
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+span {
+    font-weight: normal;
+}
+
+#title {
+    width: 500px;
+    height: 120px;
+    background-image: url('images/title.png'); /* Make sure this path is correct */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+
+#board {
+    width : 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #f2f0ef;
+    border: 6px solid #f2f0ef;
+    border-radius: 15px;
+
+    margin: 0 auto;
+}
+
+#controls {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#controls button {
+  background-color: #f2f0ef; /* green */
+  font-family: IBM Plex Sans, sans-serif;
+  color: black;
+  border: none;
+  padding: 9px 24px;
+  margin: 0 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+  background-color: #DEDEDE; /* darker green on hover */
+}
+
+.tile{
+    transition: all 0.5s ease;
+    width: 90px;
+    height: 90px;
+    border: 5px solid #f2f0ef;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px
+}
+
+.instructions {
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+}
+
+.x2 {
+     /* cosmiclatte */
+
+    background-color: #fd6666;
+    color: #f9f6f2;
+    
+}
+
+.x4 {
+    background-color: #ffbc80;
+    color: #776e65;
+}
+
+.x8 {
+    background-color: #ff9f45;
+    color: #f9f6f2;
+}
+
+.x16 {
+    background-color: #ff6c3b;
+    color: #f9f6f2;
+}
+
+.x32 {
+    background-color: #ff7878;
+    color: #f9f6f2;
+}
+
+.x64 {
+    background-color: #ff87ab;
+    color: #f9f6f2;
+}
+
+.x128 {
+    background-color: #f584dc;
+    color: #f9f6f2;
+}
+
+.x256 {
+    background-color: #d285de;
+    color: #f9f6f2;
+}
+
+.x512 {
+    background-color: #bc96ff;
+    color: #f9f6f2;
+}
+
+.x1024 {
+    background-color: #fd6666;
+    color: #f9f6f2;
+}
+
+.x2048 {
+    background-color: #a1b2ff;
+    color: #f9f6f2;
+}
+
+.x4096 {
+    background-color: #99e1ff;
+    color: #f9f6f2;
+}
+
+.x8192 {
+    background-color: #006d9b;
+    color: #f9f6f2;
+}
+
+.x16384 {
+    background-color: #7fffd4;
+    color: #f9f6f2;
+}
+
+
